@@ -109,7 +109,7 @@ font-weight: 600;
 
 
 
-input[type="email"] {
+input[type="email"],input[type="text"]{
   width: 480px;
   margin-top: 20px;
   padding: 10px;
