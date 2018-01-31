@@ -95,3 +95,60 @@ background-size: auto auto;
 -webkit-box-shadow: 0 5px 0 0 rgba(178,49,49,1) ;
 box-shadow: 0 5px 0 0 rgba(178,49,49,1) ;
 }
+
+.namy{
+  font-size: 30px;
+  padding: 20px;
+}
+
+.name_title > i {
+font-weight: 600;
+}
+
+
+
+
+
+input[type="email"] {
+  width: 480px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+
+input[type="password"] {
+  width: 480px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 30px;
+
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+input[type="email"]:focus,
+input[type="password"].focus {
+  border-bottom: solid 2px #969696;
+}
+
+button {
+  font-size: 30px;
+  background-color: #00B16A;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+
+/* p{
+  color: orange;
+  text-decoration: underline;
+} */
+
+.hide{
+  display: none;
+}
